@@ -1,0 +1,15 @@
+<root BTCPP_format="4">
+    <BehaviorTree>
+        <Sequence>
+            <Sequence>
+                <PressButton label="Button R"/>
+                <PressButton label="Button P"/>
+                <Sequence>
+                    <EvaluateProcessing/>
+                </Sequence>
+                <PressButton label="Button C"/>
+            </Sequence>
+            <Done />
+        </Sequence>
+    </BehaviorTree>
+</root>

@@ -1,0 +1,25 @@
+<root BTCPP_format="4">
+    <BehaviorTree>
+        <Sequence>
+            <Sequence>
+                <Sequence>
+                    <MoveTo x="0" y="0"/>
+                    <ActivateManipulator/>
+                </Sequence>
+                <Sequence>
+                    <MoveTo x="1" y="1"/>
+                    <ActivateManipulator/>
+                </Sequence>
+                <Sequence>
+                    <MoveTo x="2" y="2"/>
+                    <ActivateManipulator/>
+                </Sequence>
+                <Sequence>
+                    <MoveTo x="3" y="3"/>
+                    <ActivateManipulator/>
+                </Sequence>
+            </Sequence>
+            <Done/>
+        </Sequence>
+    </BehaviorTree>
+</root>

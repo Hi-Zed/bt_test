@@ -1,0 +1,12 @@
+<root BTCPP_format="4">
+    <BehaviorTree>
+        <Sequence>
+            <Sequence>
+                <GenerateNextDestination/>
+                <MoveToDestination/>
+                <CheckForExplorationComplete/>
+            </Sequence>
+            <Done/>
+        </Sequence>
+    </BehaviorTree>
+</root>

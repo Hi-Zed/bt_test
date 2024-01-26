@@ -1,0 +1,13 @@
+<root BTCPP_format="4">
+    <BehaviorTree>
+        <Sequence>
+            <Sequence>
+                <MoveTo x="0" y="0"/>
+                <MoveTo x="1" y="1"/>
+                <MoveTo x="2" y="2"/>
+                <MoveTo x="3" y="3"/>
+            </Sequence>
+            <Done/>
+        </Sequence>
+    </BehaviorTree>
+</root>

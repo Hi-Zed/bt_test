@@ -1,0 +1,22 @@
+<root BTCPP_format="4">
+    <BehaviorTree>
+        <Sequence>
+            <Fallback>
+                <Sequence>
+                    <RetryUntilSuccessful num_attempts="5">
+                        <Sequence>
+                            <PerformObservation />
+                            <EstimateGrasp />
+                        </Sequence>
+                    </RetryUntilSuccessful>
+                    <Pick />
+                    <MoveToDropPosition />
+                    <Drop />
+                    <MoveToRestPosition />
+                </Sequence>
+                <MoveToRestPosition />
+            </Fallback>
+            <Done />
+        </Sequence>
+    </BehaviorTree>
+</root>
