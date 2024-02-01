@@ -5,7 +5,6 @@
 #ifndef BUILD_PICK_AND_PLACE_HPP
 #define BUILD_PICK_AND_PLACE_HPP
 
-
 #include "behaviortree_cpp/action_node.h"
 
 #include <chrono>

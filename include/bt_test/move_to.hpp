@@ -49,7 +49,7 @@ namespace T1 {
         // Override the virtual function tick()
         BT::NodeStatus tick() override
         {
-            std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
             BT::Expected<float> x = getInput<float>("x");
             BT::Expected<float> y = getInput<float>("y");
